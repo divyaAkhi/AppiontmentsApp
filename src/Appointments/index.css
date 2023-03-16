@@ -1,0 +1,95 @@
+/* Write your CSS here */
+
+.main-container {
+    background: linear-gradient(to bottom, #fbc7d4, #9796f0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner-container {
+    background-color: #fff;
+  
+    width: 80%;
+    border-radius: 10px;
+  }
+  .divider {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content-holder {
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .heading {
+    font-family: 'roboto';
+    font-size: 16px;
+    color: #171f46;
+    margin-left: 20px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .input {
+    width: 250%;
+    height: 40px;
+    font-size: 12px;
+    font-family: 'roboto';
+    border: none;
+    border: solid 1px #b5b7c4;
+    padding-left: 8px;
+    border-radius: 8px;
+  }
+  .input-title {
+    margin-top: 12px;
+    color: #b5b7c4;
+    font-family: 'roboto';
+    font-size: 14px;
+  }
+  .button {
+    background-color: #8b5cf6;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'roboto';
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 12px;
+    align-self: flex-start;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .image {
+    height: 250px;
+    width: 400px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .line {
+    width: 90%;
+  }
+  
+  .joint {
+    display: flex;
+    justify-content: space-between;
+  }
+  .head2 {
+    margin-left: 40px;
+    font-family: 'roboto';
+    font-size: 13px;
+    color: #171f46;
+    margin-top: 10px;
+  }
+  .button2 {
+    margin-right: 40px;
+    color: #9897f0;
+    background-color: transparent;
+    border: 1px solid #9897f0;
+    border-radius: 15px;
+    font-family: 'roboto';
+    font-size: 10px;
+    width: 70px;
+  }
+  
